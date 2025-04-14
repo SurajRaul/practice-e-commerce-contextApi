@@ -59,6 +59,7 @@ const SideBar = () => {
   const handleKeywordClick = (keyword: string) => {
     setKeyword(keyword);
   };
+  console.log(keyword);
   const handleReset = () => {
     setSearchQuery("");
     setSelectedCategory("");
